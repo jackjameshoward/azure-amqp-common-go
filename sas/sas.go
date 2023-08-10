@@ -36,8 +36,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Azure/azure-amqp-common-go/v4/auth"
-	"github.com/Azure/azure-amqp-common-go/v4/conn"
+	"github.com/jackjameshoward/azure-amqp-common-go/auth"
+	"github.com/jackjameshoward/azure-amqp-common-go/conn"
 )
 
 type (

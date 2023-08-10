@@ -33,10 +33,10 @@ import (
 
 	"github.com/devigned/tab"
 
-	common "github.com/Azure/azure-amqp-common-go/v4"
-	"github.com/Azure/azure-amqp-common-go/v4/internal/tracing"
-	"github.com/Azure/azure-amqp-common-go/v4/uuid"
 	"github.com/Azure/go-amqp"
+	common "github.com/jackjameshoward/azure-amqp-common-go"
+	"github.com/jackjameshoward/azure-amqp-common-go/internal/tracing"
+	"github.com/jackjameshoward/azure-amqp-common-go/uuid"
 )
 
 const (

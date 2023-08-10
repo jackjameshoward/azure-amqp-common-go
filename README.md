@@ -18,7 +18,7 @@ Any new code should not use versions prior to 3.0.0.
 
 ### Using go get targeting version 4.x.x
 ``` bash
-go get github.com/Azure/azure-amqp-common-go/v4
+go get github.com/jackjameshoward/azure-amqp-common-go
 ```
 
 ### Using go get targeting version 3.x.x

@@ -4,9 +4,8 @@ import (
 	"context"
 	"os"
 
+	common "github.com/Azure/azure-amqp-common-go/internal"
 	"github.com/devigned/tab"
-
-	"github.com/Azure/azure-amqp-common-go/v4/internal"
 )
 
 // StartSpanFromContext starts a span given a context and applies common library information

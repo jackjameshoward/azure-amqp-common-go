@@ -31,10 +31,10 @@ import (
 
 	"github.com/devigned/tab"
 
-	"github.com/Azure/azure-amqp-common-go/v4/auth"
-	"github.com/Azure/azure-amqp-common-go/v4/internal/tracing"
-	"github.com/Azure/azure-amqp-common-go/v4/rpc"
 	"github.com/Azure/go-amqp"
+	"github.com/jackjameshoward/azure-amqp-common-go/auth"
+	"github.com/jackjameshoward/azure-amqp-common-go/internal/tracing"
+	"github.com/jackjameshoward/azure-amqp-common-go/rpc"
 )
 
 const (
