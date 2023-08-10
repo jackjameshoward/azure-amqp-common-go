@@ -4,8 +4,8 @@ import (
 	"context"
 	"os"
 
-	common "github.com/Azure/azure-amqp-common-go/internal"
 	"github.com/devigned/tab"
+	common "github.com/jackjameshoward/azure-amqp-common-go/internal"
 )
 
 // StartSpanFromContext starts a span given a context and applies common library information
@@ -18,7 +18,7 @@ func StartSpanFromContext(ctx context.Context, operationName string) (context.Co
 // ApplyComponentInfo applies eventhub library and network info to the span
 func ApplyComponentInfo(span tab.Spanner) {
 	span.AddAttributes(
-		tab.StringAttribute("component", "github.com/Azure/azure-amqp-common-go"),
+		tab.StringAttribute("component", "github.com/jackjameshoward/azure-amqp-common-go"),
 		tab.StringAttribute("version", common.Version))
 	applyNetworkInfo(span)
 }
