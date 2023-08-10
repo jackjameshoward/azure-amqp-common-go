@@ -1,4 +1,4 @@
-module github.com/Azure/azure-amqp-common-go/v4
+module github.com/Azure/azure-amqp-common-go
 
 go 1.18
 
