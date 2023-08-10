@@ -5,25 +5,25 @@
 
 ## `v4.1.0`
 - Update to the latest go-amqp
-  [PR#72](https://github.com/Azure/azure-amqp-common-go/pull/72)
+  [PR#72](https://github.com/jackjameshoward/azure-amqp-common-go/pull/72)
 
 ## `v4.0.0`
 - Updated to the latest go-amqp which includes a few minor changes in public surface area.
-  [PR#68](https://github.com/Azure/azure-amqp-common-go/pull/68)
+  [PR#68](https://github.com/jackjameshoward/azure-amqp-common-go/pull/68)
 
 ## `v3.2.0`
 - Change the default credits for the RPC link to be more reasonable (1000)
-  [PR#54](https://github.com/Azure/azure-amqp-common-go/pull/54)
+  [PR#54](https://github.com/jackjameshoward/azure-amqp-common-go/pull/54)
 
 ## `v3.1.2`
 - Fixing a potential race condition when an RPC link is shut down while still sending requests
   or handling responses.
-  [PR#55](https://github.com/Azure/azure-amqp-common-go/pull/55)
+  [PR#55](https://github.com/jackjameshoward/azure-amqp-common-go/pull/55)
 - Upgrading to go-amqp v0.13.13, which fixes an issue with simultaneous settling on the rpc link.
 
 ## `v3.1.1`
 - Change `Link` so it can handle parallel requests. 
-  [PR#52](https://github.com/Azure/azure-amqp-common-go/pull/52)
+  [PR#52](https://github.com/jackjameshoward/azure-amqp-common-go/pull/52)
 
 ## `v3.1.0`
 - Add support for passing managed identity user-assigned client ID.
