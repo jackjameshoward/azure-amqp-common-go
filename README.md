@@ -1,4 +1,4 @@
-Forked for debugging
+Forked for debugging do not use
 
 # Azure AMQP Common
 [![Go Report Card](https://goreportcard.com/badge/github.com/jackjameshoward/azure-amqp-common-go)](https://goreportcard.com/report/github.com/jackjameshoward/azure-amqp-common-go)
